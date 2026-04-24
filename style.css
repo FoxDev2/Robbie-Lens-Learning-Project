@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 1em;
   background-color: #1f2039;
 }
@@ -21,7 +21,7 @@ em {
 h1 {
   font-size: 3.5em;
   color: #a5b4fc;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
@@ -55,6 +55,7 @@ a:hover {
   background: linear-gradient(#696484, #8788ba);
   text-decoration: none;
 }
+
 .lien-icone {
   margin-left: 30px;
 }
@@ -85,24 +86,17 @@ section {
   width: 50%;
   margin: auto;
 }
-nav,
-footer {
+
+footer,
+nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 nav a {
   margin-left: 30px;
-}
-
-.section-introduction {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-  align-items: center;
-  margin: auto;
 }
 
 .section-images {
@@ -119,7 +113,45 @@ nav a {
 .section-images div {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   gap: 15px;
+  justify-content: center;
   margin-bottom: 15px;
+}
+
+.section-introduction {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+}
+
+.portfolio-section-photos {
+  background-color: white;
+}
+
+.portfolio-section-photos h2 {
+  color: #242424;
+  margin-bottom: 80px;
+}
+
+.grid-paysages img,
+.grid-portraits img {
+  width: 100%;
+  height: 100%;
+  /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
+  object-fit: cover;
+}
+.grid-paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
+  margin-bottom: 80px;
+}
+.grid-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
 }
