@@ -24,11 +24,15 @@
 .section-introduction {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 70%;
   align-items: flex-start;
+  justify-content: center;
   margin: auto;
 }
-/*redimensionnement de l'image si nécessaire*/
+
+.section-introduction img {
+  width: 300px;
+}
 
 .section-introduction h1 {
   margin-bottom: 15px;
