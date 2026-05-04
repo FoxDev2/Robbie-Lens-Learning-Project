@@ -185,24 +185,24 @@ nav a {
   grid-template-rows: 300px 300px;
   gap: 15px;
 }
-.container-image {
+.lien-container-image {
   position: relative;
 }
-.container-image a {
+.div-effet {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  width: 264px;
-  color: rgba(255, 255, 255, 0);
-  position: absolute;
-  bottom: 0.1px;
-  background-color: rgba(0, 0, 0, 0);
+  display: none;
 }
-.container-image a:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #FFFFFF;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
+.lien-container-image:hover .div-effet{
+  display: flex;
 }
