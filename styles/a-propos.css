@@ -2,6 +2,8 @@
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
   padding: 50px;
+  width: 50%;
+  margin: auto;
   margin-bottom: 80px;
 }
 
@@ -19,6 +21,32 @@
 
 /*70%*/
 .a-propos-main {
-  width: 70%;
   margin: auto;
 }
+
+td, th {
+  border: 1px solid #a5b4fc;
+  padding: 15px;
+}
+
+.section-tarifs {
+  padding: 0 80px 80px;
+}
+
+td {
+  padding: 80px;
+}
+table {
+  border-collapse: collapse;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+.section-tarifs h2 {
+  margin-bottom: 80px;
+}
+
