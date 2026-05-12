@@ -45,3 +45,60 @@
 .section-introduction div {
   padding-right: 80px;
 }
+
+form label {
+  font-size: 18px;
+  color: white;
+}
+.identity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  
+}
+form input, form textarea {
+  display: block;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+form input:focus, form textarea:focus {
+  outline: 1px solid #a5b4fc;
+}
+
+form textarea {
+  overflow-y: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+  font-size: 18px;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(#696484, #8788ba);
+}
+
+.submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+}
+
+.section-contact h2 {
+  text-align: center;
+  color: #a5b4fc;
+}
