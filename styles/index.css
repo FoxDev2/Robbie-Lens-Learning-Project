@@ -1,0 +1,104 @@
+.section-images {
+  background-color: white;
+  padding: 80px;
+}
+
+.section-images h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-images div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.section-images div img {
+  width: 300px;
+} 
+
+.section-introduction {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto;
+}
+
+.section-introduction img {
+  width: 300px;
+}
+
+.section-introduction h1 {
+  margin-bottom: 15px;
+}
+
+.section-introduction p {
+  margin-bottom: 30px;
+}
+
+.section-introduction div {
+  padding-right: 80px;
+}
+
+form label {
+  font-size: 18px;
+  color: white;
+}
+.identity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  
+}
+form input, form textarea {
+  display: block;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+form input:focus, form textarea:focus {
+  outline: 1px solid #a5b4fc;
+}
+
+form textarea {
+  overflow-y: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+  font-size: 18px;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(#696484, #8788ba);
+}
+
+.submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+}
+
+.section-contact h2 {
+  text-align: center;
+  color: #a5b4fc;
+}
