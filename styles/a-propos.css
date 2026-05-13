@@ -50,3 +50,21 @@ h1, h2 {
   margin-bottom: 80px;
 }
 
+
+@media screen and (max-width: 996px){
+ .section-tarifs {
+   display: none;
+ }
+ .carre-contenu {
+  padding: 30px;
+  margin-bottom: 20px;
+  width: 70%;
+  text-align: center;
+}
+.carre-contenu ul {
+  text-align: justify;
+}
+.carre-contenu ul li {
+  margin-bottom: 8px;
+}
+}

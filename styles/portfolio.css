@@ -50,3 +50,18 @@
 .lien-container-image:hover .div-effet{
   display: flex;
 }
+
+
+@media screen and (max-width: 996px ){
+ .grid-paysages,.grid-portraits {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 50px;
+ }
+.portfolio-section-photos {
+  padding-top: 50px;
+}
+.portfolio-section-photos h2 {
+  margin-bottom: 50px;
+}
+}

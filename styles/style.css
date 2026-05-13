@@ -89,3 +89,32 @@ nav {
 nav a {
   margin-left: 60px;
 }
+
+
+@media screen and (max-width: 996px) {
+  h2, h1 {
+    font-size: 2em;
+  }
+  footer {
+    padding: 10px 30px;
+  } 
+  section {
+    padding: 20px;
+  }
+ .lien-icone {
+   margin-left: 20px;
+ }
+ nav {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+ }
+ nav div {
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+ }
+ nav div a {
+   margin-left: 0;
+ }
+}
