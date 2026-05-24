@@ -24,7 +24,8 @@
   margin: auto;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #a5b4fc;
   padding: 15px;
 }
@@ -43,28 +44,28 @@ table {
   width: 100%;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 .section-tarifs h2 {
   margin-bottom: 80px;
 }
 
-
-@media screen and (max-width: 996px){
- .section-tarifs {
-   display: none;
- }
- .carre-contenu {
-  padding: 30px;
-  margin-bottom: 20px;
-  width: 70%;
-  text-align: center;
-}
-.carre-contenu ul {
-  text-align: justify;
-}
-.carre-contenu ul li {
-  margin-bottom: 8px;
-}
+@media screen and (max-width: 500px) {
+  .section-tarifs {
+    display: none;
+  }
+  .carre-contenu {
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 70%;
+    text-align: center;
+  }
+  .carre-contenu ul {
+    text-align: justify;
+  }
+  .carre-contenu ul li {
+    margin-bottom: 8px;
+  }
 }

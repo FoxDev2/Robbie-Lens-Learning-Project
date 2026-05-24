@@ -54,7 +54,7 @@ footer {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
   border-radius: 50px;
-  padding: 20px 30px;
+  padding: 15px 25px;
 }
 
 a:hover {
@@ -90,7 +90,7 @@ nav a {
   margin-left: 60px;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 500px) {
   h2,
   h1 {
     font-size: 2em;

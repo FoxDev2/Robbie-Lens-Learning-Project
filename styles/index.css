@@ -19,7 +19,7 @@
 
 .section-images div img {
   width: 300px;
-} 
+}
 
 .section-introduction {
   display: flex;
@@ -55,15 +55,16 @@ form label {
   flex-direction: column;
   justify-content: space-between;
   padding: 10px;
-  
 }
-form input, form textarea {
+form input,
+form textarea {
   display: block;
   margin-top: 15px;
   padding: 10px;
   border-radius: 10px;
 }
-form input:focus, form textarea:focus {
+form input:focus,
+form textarea:focus {
   outline: 1px solid #a5b4fc;
 }
 
@@ -95,7 +96,7 @@ input[type="submit"]:hover {
 .submit {
   display: flex;
   flex-direction: column;
-  justify-content: center ;
+  justify-content: center;
 }
 
 .section-contact h2 {
@@ -103,7 +104,7 @@ input[type="submit"]:hover {
   color: #a5b4fc;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 500px) {
   .section-introduction {
     max-width: 1000px;
     display: flex;
@@ -112,24 +113,51 @@ input[type="submit"]:hover {
     margin: auto;
     gap: 40px;
   }
- .section-introduction div {
-   padding-right: 0;
-   text-align: center;
- }
- .section-images div {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-  
- }
- form {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 30px;
-   margin-top: 20px;
- }
- .identity {
-   gap: 10px;
- }
+  .section-introduction div {
+    padding-right: 0;
+    text-align: center;
+  }
+  .section-images {
+    padding: 40px;
+  }
+  .section-images h2 {
+    margin: 0 0 40px;
+  }
+  .section-images div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-images div img {
+    width: 100%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .identity {
+    gap: 10px;
+  }
+  .section-contact h2 {
+    margin-top: 20px;
+  }
 }
+@media screen and (max-width: 365px) {
+  .long-cta {
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .long-cta {
+    padding: 5px 10px;
+  }
+}
+/*@media screen and (min-width: 500px) and (max-width: 996px) {
+  .section-introduction {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}*/
