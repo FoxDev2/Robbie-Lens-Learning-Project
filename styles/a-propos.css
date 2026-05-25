@@ -1,22 +1,54 @@
 .carre-contenu {
-  border-right: 1px solid #8e86b5;
-  border-bottom: 1px solid #8e86b5;
-  padding: 50px;
+  padding: 30px;
   width: 50%;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
+  text-align: justify;
+  line-height: 2;
+  position: relative;
 }
 
 .carre-contenu h2 {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .carre-contenu ul {
-  margin-top: 30px;
+  margin-top: 20px;
+  list-style: none;
 }
 
-.carre-contenu + div {
+.carre-contenu ul div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.carre-contenu ul div svg {
+  color: #a5b4fc;
+}
+
+.cta-div {
   text-align: center;
+}
+
+.border-effect {
+  height: 200px;
+  width: 200px;
+  border-right: 1px solid #a5b4fc;
+  border-bottom: 1px solid #a5b4fc;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.mobile-deco {
+  display: none;
+  height: 100px;
+  width: 100px;
+}
+
+.section-services {
+  padding: 40px 80px;
 }
 
 /*70%*/
@@ -49,23 +81,71 @@ h2 {
   text-align: center;
 }
 .section-tarifs h2 {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 500px) {
   .section-tarifs {
     display: none;
   }
+  .border-effect {
+    display: none;
+  }
   .carre-contenu {
-    padding: 30px;
-    margin-bottom: 20px;
-    width: 70%;
+    margin: 30px auto;
+    width: 82%;
     text-align: center;
+  }
+  .section-services {
+    padding: 30px;
   }
   .carre-contenu ul {
     text-align: justify;
+    list-style: initial;
+    line-height: 1.6;
+    text-align: left;
   }
   .carre-contenu ul li {
     margin-bottom: 8px;
+  }
+  .carre-contenu ul div {
+    align-items: flex-start;
+  }
+  .carre-contenu ul div svg {
+    display: none;
+  }
+  .mobile-deco {
+    display: block;
+  }
+  .deco-effect1 {
+    border-left: 1px solid #a5b4fc;
+    border-top: 1px solid #a5b4fc;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .deco-effect2 {
+    border-right: 1px solid #a5b4fc;
+    border-bottom: 1px solid #a5b4fc;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 372px) {
+  .long-cta {
+    padding: 5px 10px;
+  }
+  .carre-contenu {
+    padding: 20px;
+  }
+  .section-services {
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 341px) {
+  .long-cta {
+    padding: 5px 10px;
+    font-size: 0.8em;
   }
 }
