@@ -1,0 +1,22 @@
+{
+  "name": "robbie-lens-learning-project",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/FoxDev2/Robbie-Lens-Learning-Project#readme",
+  "bugs": {
+    "url": "https://github.com/FoxDev2/Robbie-Lens-Learning-Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoxDev2/Robbie-Lens-Learning-Project.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.3"
+  }
+}
