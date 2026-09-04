@@ -1,9 +1,9 @@
 .carre-contenu {
   padding: 30px;
-  width: 50%;
+  width: 70%;
   margin: auto;
   margin-bottom: 50px;
-  text-align: justify;
+  text-align: center;
   line-height: 2;
   position: relative;
 }
@@ -48,7 +48,8 @@
 }
 
 .section-services {
-  padding: 40px 80px;
+  padding: clamp(30px, 2.92vw, 50px);
+  padding-bottom: 0;
 }
 
 /*70%*/
@@ -63,11 +64,11 @@ th {
 }
 
 .section-tarifs {
-  padding: 0 80px 80px;
+  padding: padding: clamp(20px, 3.9w, 75px);;
 }
 
 td {
-  padding: 80px;
+  padding: clamp(20px, 2.92vw, 80px);
 }
 table {
   border-collapse: collapse;
@@ -84,16 +85,13 @@ h2 {
   margin-bottom: 40px;
 }
 
-@media screen and (max-width: 500px) {
-  .section-tarifs {
-    display: none;
-  }
-  .border-effect {
+@media screen and (max-width: 640px) {
+ .border-effect {
     display: none;
   }
   .carre-contenu {
     margin: 30px auto;
-    width: 82%;
+    width: 80vw;
     text-align: center;
   }
   .section-services {
@@ -132,7 +130,13 @@ h2 {
     bottom: 0;
   }
 }
-@media screen and (max-width: 372px) {
+
+@media screen and (max-width: 500px) {
+  .section-tarifs {
+    display:none;
+  }
+}
+/* @media screen and (max-width: 372px) {
   .long-cta {
     padding: 5px 10px;
   }
@@ -148,4 +152,4 @@ h2 {
     padding: 5px 10px;
     font-size: 0.8em;
   }
-}
+} */
